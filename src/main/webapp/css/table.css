@@ -1,0 +1,129 @@
+body {
+	width: 100%;
+	background-color: #212121;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+body, header, nav {
+	margin: 0px;
+}
+
+header {
+	background-color: #0099CC;
+	color: white;
+	padding: 10px 10px;
+}
+
+nav {
+	background-color: #8DC63F;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 50px;
+}
+
+nav ul {
+	float: left;
+}
+
+nav li {
+	list-style-type: none;
+	color: white;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	float: left;
+}
+
+nav li a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	clear: both;
+	display: block;
+	width: 80%;
+	margin: 20px auto;
+	vertical-align: top;
+	text-align: center;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+}
+
+img {
+	width: 100%;
+}
+
+.productImg {
+	width: 200px;
+}
+
+.starImg img{
+	width: 100px;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-spacing: 0;
+	padding: 0;
+	padding-right: 10px;
+	
+}
+
+
+
+th img {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+}
+
+td {
+	padding: 0;
+	width: 150px;
+}
+
+
+tr:nth-child(even) {
+	background-color: lightgray;
+}
+.blankHeader {
+	width: 150px;
+}
+
+.rowHeader {
+	background-color: white;
+	width: 150px;
+	
+}
+.rowHeader h5 {
+	margin: 0;
+	width: auto;
+	padding-left: 15px;
+	text-align: left;
+}
+.bestSeller {
+	font-size: 12px;
+	margin: 0 auto;
+	width: 120px;
+	display: block;
+	color: red;
+}
+
+.price {
+	color: #a62610;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
